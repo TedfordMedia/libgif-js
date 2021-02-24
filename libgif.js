@@ -555,11 +555,11 @@
                     height /= ctx_scaled ? get_canvas_scale() : 1;
                 }
 
-                ctx.fillStyle = progressBarBackgroundColor;
-                ctx.fillRect(mid, top, width - mid, height);
+                // ctx.fillStyle = progressBarBackgroundColor;
+                // ctx.fillRect(mid, top, width - mid, height);
 
-                ctx.fillStyle = progressBarForegroundColor;
-                ctx.fillRect(0, top, mid, height);
+                // ctx.fillStyle = progressBarForegroundColor;
+                // ctx.fillRect(0, top, mid, height);
             }
         };
 
